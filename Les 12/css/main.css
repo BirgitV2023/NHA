@@ -1,0 +1,110 @@
+header{
+    background-color: rgba(244, 165, 96, 0.35);
+    padding-top: 3px;
+}
+
+nav{
+    background-color: burlywood;
+    padding-top: 6px;
+    height: 25px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table{
+    border: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: sandybrown;
+    text-align: center;
+}
+
+h3{
+    color: chocolate;
+    padding-top: 3px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+#hotel{
+    background-color: darkgoldenrod;
+    width: 100px;
+    text-align: center;
+}
+#picHotel{
+    background-color: rgba(183, 149, 62, 0.612);
+}
+
+#palm{
+    background-color: burlywood;
+    width: 100px;
+    text-align: center;
+}
+#picPalm{
+    background-color: rgba(192, 170, 141, 0.768);
+}
+
+#strand{
+    background-color: rgb(244, 183, 97);
+    width: 100px;
+    text-align: center;
+}
+#picStrand{
+    background-color: rgba(239, 210, 140, 0.733);
+}
+
+#cocktail{
+    background-color: chocolate;
+    width: 100px;
+    text-align: center;
+}
+#picCocktail{
+    background-color: rgba(215, 138, 84, 0.733);
+}
+
+#camp{
+    background-color: rgb(93, 72, 60);
+    width: 100px;
+    text-align: center;
+}
+#picCamp{
+    background-color: rgba(116, 102, 93, 0.768);
+}
+
+#friends{
+    background-color: rgb(75, 87, 55);
+    width: 100px;
+    text-align: center;
+}
+#picFriends{
+    background-color: rgb(87, 104, 73);
+}
+
+#diner{
+    background-color: rgb(251, 171, 12);
+    width: 100px;
+    text-align: center;
+}
+#picDiner{
+    background-color: rgba(59, 48, 19, 0.733);
+}
+
+#happy{
+    background-color: rgb(182, 144, 73);
+    width: 100px;
+    text-align: center;
+}
+#picHappy{
+    background-color: rgb(125, 107, 94);
+}
+
+footer{
+    background-color: #bfb39a64;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
