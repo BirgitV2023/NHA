@@ -2,48 +2,159 @@
 <html lang="nl">
 
 <head>
-    <link rel="STYLESHEET" href="les15.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+        [class*="col-"] {
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 768px) {
+            [class*="col-"] {
+                float: left;
+                padding: 15px;
+            }
+
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+
+        .header {
+
+            background-image: url(https://www.bernheze.org/data/downloadables/7/6/6/sfeerbeeld-smal-profiel.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 200px;
+            color: white;
+            padding: 15px;
+        }
+
+        .weetjes ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .weetjes li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: rgba(101, 153, 95, 0.815);
+            color: white;
+        }
+
+        img {
+            margin-left: 15px
+        }
+
+
+        footer {
+            font-weight: 300;
+            font-size: small;
+            position: fixed;
+            bottom: 10px;
+            text-align: center;
+        }
     </style>
-    <title>Over Mij</title>
 </head>
 
 <body>
-    <h1>BIRGIT VOLK</h1>
-    <h2>GRAPHIC DESIGN</h2>
-
-    <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="mijncv.html">Mijn CV</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </header>
-    <div>
-        <img src="https://static.wixstatic.com/media/0be0f2_372b1fb877294314a3dc5613c470dfa2~mv2.png/v1/crop/x_0,y_15,w_768,h_739/fill/w_476,h_458,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202023-07-19%20at%2008_53_edite.png"
-            alt="BirgitVolk" class="left">
-        <p> Trotse moeder van 2 meisjes en een creatieveling in hart en nieren. Een die zich uren kan verdiepen in
-            creatieve processen van A tot Z. Is het niet achter mijn computer dan is het voor en met mijn
-            dochtertjes. <br><br>
-            Voordat ik mezelf vol overgave storten op het Grafische vak heb ik jaren in diverse winkels gestaan. Ik
-            ben graag een helpende hand en commercieel ingesteld. Mensen / bedrijven helpen om juist het beste idee
-            in
-            hun hoofd goed te vertalen naar iets visueel. Luisteren is hierbij een sleutelwoord. Maar ook vragen
-            (durven) stellen om juist het optimale te kunnen bereiken. En als dit allemaal succesvol is afgerond heb
-            ik
-            juist
-            nog meer energie voor het volgende. <br><br>
-            Ook ben ik eigenaar van een webshop in baby- en kinderboeken en stationery genaamd 24/7 Stoer. Alles
-            hiervoor is volledig ontworpen door mij. Een project van A tot Z waar ik trots op ben.
-            Maar soms dan werk ik ook echt even niet. Dan geniet ik van een wandeling met mijn gezin of een lekker
-            terrasje met mooi weer. Een bioscoopje of een biertje in de kroeg met vrienden.<br><br>
-            ........ En als je dan toch echt 'alles' van me wil weten dan sta ik altijd open voor een kop koffie en
-            een goed gesprek.<br>
-            Je mag me altijd even mailen: <a href="mailto:birgitvolk86@gmail.com">birgitvolk86@gmail.com</a>
+    <div class="header">
+        <h1>Heeswijk-Dinther</h1>
     </div>
-    <footer>
-        © 2023 by Birgit Volk. Proudly created with VSCode
+    <div class="row">
+        <div class="col-2 weetjes">
+            <ul>
+                <h2>5 leuke weetjes over HaDee</h2>
+                <li>Heeswijk en Dinther waren voor 1969 twee aparte dorpen</li>
+                <li>Heeft een Natuurtheater wat jaarljks vele voorstellingen organiseert</li>
+                <li>Naast Theo Lucius, Roelof Hemmen is ook Sanne van Dijk woonachtig in Heeswijk-Dinther</li>
+                <li>Er een mooie Molen staat uit de 13e-eeuwse die in 2019 volledig is gerestaureerd </li>
+                <li>Wij in totaal 8800 inwoners hebben</li>
+            </ul>
+        </div>
+        <div class="col-9">
+            <h1>Bezienswaardigheid in Heeswijk</h1>
+            <IMG SRC="https://www.lifeisgood.nu/wp-content/uploads/2023/04/20200606-kasteelheeswijk-willekemachiels-hr-013-8553-1.png"
+                ALT="Kasteel Heeswijk" WIDTH="500" ALIGN="right">
+            <p>Reeds in het jaar 1080 ontstond er een voorloper van het huidige kasteel, een zogenaamde motte-burcht. In
+                de loop van de middeleeuwen werd de motte (kasteelheuvel) afgevlakt en werd op de plaats van de burcht
+                een kasteel gebouwd. Vanwege de ligging bij de rivier de Aa was het een waardevol bezit omdat hier de
+                schepen langskwamen vanuit de Peel naar 's-Hertogenbosch. Eigenaren van het kasteel zijn onder meer de
+                families Van Glymes en Cirksena. Graaf Johan Cirksena van Oost-Friesland bouwt een voorburcht van
+                baksteen met natuurstenen banden of speklagen. Hiervan zijn de west- en zuidvleugel bewaard
+                gebleven.<br><br>
+                Kasteel Heeswijk heeft meerdere malen een rol gespeeld in de geschiedenis. Het lukte prins Maurits rond
+                1600 tot tweemaal toe niet om het kasteel in te nemen. Zijn halfbroer Frederik Hendrik slaagde daar in
+                1629 wel in, zodat hij vervolgens 's-Hertogenbosch kon belegeren. In 1672 was de Zonnekoning Lodewijk
+                XIV een ongenode gast op Kasteel Heeswijk tijdens zijn strijd tegen de Republiek. De verdedigingswerken
+                worden vernietigd en het kasteel verwordt tot een buitenhuis. Aan het eind van de 18e eeuw gebruikte
+                Pichegru, generaal van de Franse Revolutie onder leiding van Napoleon, het kasteel nog als
+                hoofdkwartier. <br><br>
+                In 1835 kocht gouverneur André baron van den Bogaerde van Terbrugge het in verval
+                geraakte kasteel en startte meteen een grootse verbouwing. Het buitenhuis verwordt weer tot een
+                (neogotisch) kasteel. Hij bracht er zijn grote collectie van schilderijen, middeleeuwse beelden,
+                kunstvoorwerpen en curiosa onder. Na zijn dood breidden zijn zoons, de jonkers Louis (1855–1890) en
+                Alberic (1890–1895) (ook wel Donat genoemd) de collectie verder uit. Het was op afspraak te bezichtigen.
+                Ten behoeve van dit 'museum' werd het kasteel uitgebreid met onder andere de Wapenzaal en de IJzertoren.
+                Jonkheer Alberic had een bijzonder testament opgesteld. Hij liet het kasteel en kasteel Nemerlaer na aan
+                zijn achterneven: Baron Willem en zijn broer Othon. Deze achterneven mochten echter pas over de erfenis
+                beschikken wanneer Othon 80 jaar zou zijn. Het kasteel mocht niet worden bewoond, maar moest voor
+                publiek toegankelijk zijn om de verzameling te bewonderen. Het liep niet geheel zoals gepland, want een
+                groot deel van de collectie werd geveild in 1900.</p>
+        </div>
+    </div>
+    <footer class="col-12">Gemeente Bernheze, geraadpleegd op 08-09-2023:
+        https://www.bernheze.org/data/downloadables/7/6/6/sfeerbeeld-smal-profiel.jpg, <br> Life is Good, geraadpleegd
+        op 08-09-2023:
+        https://www.lifeisgood.nu/wp-content/uploads/2023/04/20200606-kasteelheeswijk-willekemachiels-hr-013-8553-1.png,
+        <br> Wikipedia, geraadpleegd op 08-09-2023: https://nl.wikipedia.org/wiki/Kasteel_Heeswijk
     </footer>
 </body>
 
