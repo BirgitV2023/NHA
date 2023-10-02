@@ -1,0 +1,76 @@
+   html {
+       text-align: center;
+   }
+
+   header img {
+       background: url("img/pexels-leah-kelley-6480707.jpg") no-repeat top center;
+       align-content: center;
+       text-align: center;
+       width: 100%;
+       height: auto;
+       margin: 0;
+   }
+
+   body {
+       font-family: 'Roboto', sans-serif;
+       margin: 0 auto;
+   }
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+       font-family: "Playfair Display";
+       letter-spacing: 5px;
+       text-align: center;
+   }
+
+   button {
+       font-family: 'Roboto', sans-serif;
+       font-size: medium;
+       padding: 5px;
+       background-color: transparent;
+       border-radius: 5px;
+   }
+
+   .img-fluid {
+       width: 100%;
+       height: auto;
+   }
+
+   .col {
+       float: left;
+       width: 33.33%;
+       padding: 10px;
+   }
+
+   .container:after {
+       content: "";
+       display: table;
+       clear: both;
+   }
+
+   * {
+       box-sizing: border-box;
+       align-items: center;
+   }
+
+   footer {
+       text-align: center;
+   }
+
+   p {
+       text-align: center;
+       padding-left: 30px;
+       padding-right: 30px;
+       padding-bottom: 10px;
+   }
+
+   a {
+       text-decoration: none;
+       color: rgb(168, 128, 41);
+       justify-content: center;
+       text-align: center;
+   }
